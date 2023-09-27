@@ -2,10 +2,10 @@ import java.util.Arrays;
 
 public class MyMain {
     // Write a method that prints out all the even numbers in an array backwards
-    // Ex: printEvensBackwards([1, 2, 3, 4, 5, 6]) =>
-    //     6
-    //     4
+    // Ex: printEvensBackwards([5, 6, 3, 2, 8]) =>
+    //     8
     //     2
+    //     6
     public static void printEvensBackwards(int[] arr) {
         // REPLACE THIS WITH YOUR CODE
         return;
@@ -79,7 +79,11 @@ public class MyMain {
 
         System.out.println();
         System.out.println("Bubble Sort Tests");
+        System.out.println(Arrays.toString(bubbleSort(new int[] {2}))); // [2]
+        System.out.println(Arrays.toString(bubbleSort(new int[] {1, 2}))); // [1, 2]
+        System.out.println(Arrays.toString(bubbleSort(new int[] {2, 1}))); // [1, 2]
         System.out.println(Arrays.toString(bubbleSort(new int[] {6, 1, 3, 8, 2, 9}))); // [1, 2, 3, 6, 8, 9]
         System.out.println(Arrays.toString(bubbleSort(new int[] {12, 5, 23, 74, 12, 86, 2}))); // [2, 5, 12, 12, 23, 74, 86]
+        System.out.println(Arrays.toString(bubbleSort(new int[] {9, 8, 7, 6, 5, 4, 3, 2, 1}))); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
     }
 }
