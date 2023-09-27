@@ -55,10 +55,10 @@ public class MyMain {
 
     public static void main(String[] args) {
         System.out.println("printEvensBackwards Tests:");
-        printEvensBackwards(new int[] {1, 2, 3, 4, 5, 6});
-        // 6
-        // 4
+        printEvensBackwards(new int[] {5, 6, 3, 2, 8});
+        // 8
         // 2
+        // 6
 
         System.out.println();
         System.out.println("isIncreasing Tests:");
