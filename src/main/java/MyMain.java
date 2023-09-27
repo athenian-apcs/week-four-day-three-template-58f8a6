@@ -22,7 +22,6 @@ public class MyMain {
         return false;
     }
 
-    // (Maybe Optional):
     // Write a method that checks if an array is "balanced". An array
     // is balanced if the first and last values differ by at most 2, and
     // if the second and second to last values differ by at most 2, and so on
